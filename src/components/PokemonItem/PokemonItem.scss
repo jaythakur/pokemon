@@ -1,0 +1,31 @@
+
+.item:nth-child(1), .item:nth-child(2), .item:nth-child(3) {
+    flex-basis: 32%;
+    background: #ffffff;
+}
+
+.heading {
+    background: #115740;
+    color: #ffffff;
+    padding: 5px;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.heading div {
+    flex: 1;
+}
+
+.heading div:nth-child(2) {
+    text-align: right;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+}
+
+img {
+    width: 100%;
+}
