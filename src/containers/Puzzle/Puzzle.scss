@@ -1,0 +1,32 @@
+.Section {
+    .box {
+        width: 500px;
+        height: 500px;
+        background: #A8CBAF;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius: 10px;
+
+        .item {
+            width: 103px;
+            height: 103px;
+            background: #F2F6A4;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 30px;
+            font-weight: bold;            
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    .row {
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+    }
+}
