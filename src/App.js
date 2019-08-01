@@ -1,11 +1,11 @@
 import React from 'react';
 
 import './App.scss';
-import Puzzle from '../src/containers/Puzzle/Puzzle';
+import Pokemon from '../src/containers/Pokemon/Pokemon';
 
 function App() {
   return (
-    <Puzzle />
+    <Pokemon name="jay" />
   );
 }
 

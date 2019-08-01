@@ -11,11 +11,15 @@ class Pokemon extends Component {
     state = {
         pokemonList: [],
         nextRecordApi: 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=3',
-        preRecordApi: ''
+        preRecordApi: '',
+        data: ''
     }
 
     componentDidMount() {
+        console.log(this.state.nextRecordApi);
+        console.log('Pokemon.js] componentDidMount');
         this.getData(this.state.nextRecordApi);
+
     }
 
     fetchNextListHandler = () => this.getData(this.state.nextRecordApi);
@@ -32,6 +36,8 @@ class Pokemon extends Component {
     }
 
     render() {
+        
+        console.log('[render]');
         const style = {
             marginTop: '10px'
         }
